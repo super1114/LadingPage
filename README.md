@@ -1,2 +1,0 @@
-# LadingPage
-React-Typescript
