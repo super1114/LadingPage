@@ -35,25 +35,56 @@ const Header = ({ t }: any) => {
       });
       setVisibility(false);
     };
+    interface SocialLinkProps {
+      href: string;
+      src: string;
+    }
+    const SocialLink = ({ href, src }: SocialLinkProps) => {
+      return (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          key={src}
+          aria-label={src}
+        >
+          <SvgIcon src={src} width="25px" height="25px" />
+        </a>
+      );
+    };
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+          <Span>{t("HOME")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
+          <Span>{t("ABOUT")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+          <Span>{t("RARITY")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+          <Span>{t("ROADMAP")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+          <Span>{t("TEAM")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>{t("FAQ")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
-        >
-          <Span>
-            <Button>{t("Contact")}</Button>
-          </Span>
+        <CustomNavLinkSmall>
+          <SocialLink
+                href="https://twitter.com"
+                src="twitter.svg"
+              />
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall>
+          <SocialLink
+                href="https://discord.com"
+                src="discord.svg"
+              />
+        </CustomNavLinkSmall>
+        
       </>
     );
   };
