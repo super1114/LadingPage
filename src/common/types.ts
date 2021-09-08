@@ -41,3 +41,12 @@ export interface validateProps {
   message: string;
   email: string;
 }
+
+export interface PercentProps {
+  css: object;
+  percent: string;
+}
+export interface TitleProps {
+  children: React.ReactNode;
+}
+

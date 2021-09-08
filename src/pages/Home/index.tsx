@@ -2,6 +2,7 @@ import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
+import RoadmapContent from "../../content/RoadmapContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
@@ -9,7 +10,9 @@ import ContactContent from "../../content/ContactContent.json";
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const MachineBlock = lazy(() => import("../../components/MachineBlock"));
+const Roadmap = lazy(() => import("../../components/Roadmap"));
 const Container = lazy(() => import("../../common/Container"));
+const Title = lazy(() => import("../../common/Title"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
@@ -21,12 +24,40 @@ const Home = () => {
         image="machine1.png"
         id="machine"
       />
-      <ContentBlock
+      <Title>Roadmap</Title>
+      <Roadmap
+        type="right"
+        content={ RoadmapContent.roadmap1 }
+        css={{left:"0%", top:"0%", width:"7%"}}
+        percent="0%"
+        id="about"
+      />
+      <Roadmap
         type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
+        content={ RoadmapContent.roadmap2 }
+        css={{left:"22%", top:"0px", width:"7%"}}
+        percent="25%"
+        id="about"
+      />
+      <Roadmap
+        type="right"
+        content={ RoadmapContent.roadmap3 }
+        css={{left:"46%", top:"0px", width:"7%"}}
+        percent="50%"
+        id="about"
+      />
+      <Roadmap
+        type="left"
+        content={ RoadmapContent.roadmap4 }
+        css={{left:"72%", top:"0px", width:"7%"}}
+        percent="75%"
+        id="about"
+      />
+      <Roadmap
+        type="right"
+        content={ RoadmapContent.roadmap5 }
+        css={{left:"93%", top:"0px", width:"7%"}}
+        percent="100%"
         id="about"
       />
       <ContentBlock
