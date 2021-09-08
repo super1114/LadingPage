@@ -7,6 +7,7 @@ import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
+  LogoText,
   Burger,
   NotHidden,
   Menu,
@@ -61,16 +62,13 @@ const Header = ({ t }: any) => {
           <Span>{t("ABOUT")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("RARITY")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
           <Span>{t("ROADMAP")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("TEAM")}</Span>
+          <Span>{t("RARITY")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("FAQ")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+          <Span>{t("UTILITY AND FAQ")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall>
           <SocialLink
@@ -94,7 +92,8 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="logo.png" width="100px" height="74px" />
+            <LogoText>METABAES</LogoText>
           </LogoContainer>
           <NotHidden>
             <MenuItem />
