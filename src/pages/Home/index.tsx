@@ -1,25 +1,17 @@
 import { lazy } from "react";
-import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
 import RoadmapContent from "../../content/RoadmapContent.json";
 import RaratyContent from "../../content/RarityContent.json";
 import FaqContent from "../../content/FaqContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
-import ContactContent from "../../content/ContactContent.json";
 import "../global.css"
 
-const Contact = lazy(() => import("../../components/ContactForm"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const FaqBlock = lazy(() => import("../../components/FaqBlock"));
 const RarityBlock = lazy(() => import("../../components/RarityBlock"));
 const MachineBlock = lazy(() => import("../../components/MachineBlock"));
+const SliderBlock = lazy(() => import("../../components/SliderBlock"));
 const Roadmap = lazy(() => import("../../components/Roadmap"));
 const Container = lazy(() => import("../../common/Container"));
 const Title = lazy(() => import("../../common/Title"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
-const ContentBlock = lazy(() => import("../../components/ContentBlock"));
  
 const Home = () => {
   return (
@@ -28,6 +20,10 @@ const Home = () => {
       <MachineBlock
         image="machine1.png"
         id="machine"
+      />
+      <SliderBlock 
+        type="left"
+        id="slider"
       />
       <Title>Roadmap</Title>
       <Roadmap
@@ -73,18 +69,6 @@ const Home = () => {
       <FaqBlock
         content={FaqContent.content}
         id="mission"
-      />
-      <ContentBlock
-        type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
-      />
-      <Contact
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
       />
     </Container>
   );

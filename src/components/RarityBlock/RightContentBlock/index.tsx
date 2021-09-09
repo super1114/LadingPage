@@ -39,7 +39,7 @@ const RightBlock = ({
                 <h5 style={{marginTop:"30px", color: "#fe457e", fontWeight:900}}>Rarity</h5>
                 {content.map((item:RarityItemProps, index:any)=> {
                   return (
-                    <RarityItem number={item.number} character={item.character} />
+                    <RarityItem key={index} number={item.number} character={item.character} />
                   )
                 })}
               </ContentWrapper>

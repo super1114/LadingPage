@@ -14,7 +14,7 @@ export interface ButtonProps {
 export interface SvgIconProps {
   src: string;
   width: string;
-  height: string;
+  height?: string;
 }
 
 export interface MachineProps {

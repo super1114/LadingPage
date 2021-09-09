@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const LeftContentSection = styled("section")`
   position: relative;
-  padding: 10rem 0 8rem;
+  padding: 5rem 0 5rem;
 
   @media only screen and (max-width: 1024px) {
     padding: 4rem 0 4rem;
@@ -15,10 +15,22 @@ export const Content = styled("p")`
 
 export const ContentWrapper = styled("div")`
   position: relative;
-  max-width: 540px;
-
+  max-width: 100%;
+  padding:0px 50px;
   @media only screen and (max-width: 575px) {
     padding-top: 4rem;
+  }
+`;
+export const LeftWrapper = styled("div")`
+  position: relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  max-width: 100%;
+  padding:0px 50px;
+  @media only screen and (max-width: 575px) {
+    padding:10px 0px;
   }
 `;
 

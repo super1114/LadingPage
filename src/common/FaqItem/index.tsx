@@ -4,14 +4,17 @@ import "./style.css"
 const FaqItem = ({ question, answer }: FaqItemProps) => {
   const [isActive, setIsActive] = useState (false);
   const [height, setHeight] = useState("0px");
-  const [visible, setVisibility] = useState("hidden");
+  const [font, setFontSize] = useState("0px");
   useEffect(()=> {
     if(isActive){
       setHeight("40px");
-      setVisibility("visible");
+      setTimeout(()=> {
+        setFontSize("17px");
+      },100);
+      
     }else {
       setHeight("0px");
-      setVisibility("hidden");
+      setFontSize("0px");
     }
   },[isActive])
   return (
@@ -22,7 +25,7 @@ const FaqItem = ({ question, answer }: FaqItemProps) => {
         </div>
         <div className="question_icon">{isActive ? '-' : '+'}</div>
       </div>
-      <p className="answer" style={{height:height, visibility:visible}}>{answer}</p>
+      <p className="answer" style={{ fontSize:font, height:height }}>{answer}</p>
     </div>
   )
 };
