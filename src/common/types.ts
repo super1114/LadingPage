@@ -49,4 +49,8 @@ export interface PercentProps {
 export interface TitleProps {
   children: React.ReactNode;
 }
+export interface RarityItemProps {
+  number?: string;
+  character: string;
+}
 

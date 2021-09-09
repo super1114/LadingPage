@@ -5,7 +5,7 @@ export const MiddleBlockSection = styled("section")`
   padding: 0 0 2rem;
   text-align: center;
   justify-content: center;
-
+  background-color: #ee0d5d;
   @media screen and (max-width: 1024px) {
     padding: 5.5rem 0 3rem;
   }

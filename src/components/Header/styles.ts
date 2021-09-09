@@ -4,7 +4,7 @@ import { MenuOutlined } from "@ant-design/icons";
 
 export const HeaderSection = styled("header")`
   padding: 1rem 0.5rem;
-  background-color: #ffc6bf;
+  background-color: #0a0a0a;
   .ant-row-space-between {
     align-items: center;
     text-align: center;
@@ -19,7 +19,7 @@ export const LogoContainer = styled(Link)`
 
 export const LogoText = styled("h4")`
   font-size: 30px;
-  color: #ff7fae;
+  color: #ee0d5d;
   margin:0px;
   margin-left:-10px;
 `;
@@ -78,7 +78,7 @@ export const Menu = styled("h5")`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
-  color: #ff7fae;
+  color: #ee0d5d;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
   font-weight: bold;
