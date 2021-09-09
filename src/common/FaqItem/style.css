@@ -2,27 +2,31 @@ div.item {
     width:100%; 
     border-bottom:1px solid #aaa; 
     padding: 10px 12px;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 div.title {
     display: flex;  
     align-items: center; 
     justify-content: space-between;
     cursor:pointer;
+    font-weight: bolder;
+    font-size: 25px;
 }
 
-div.question {
+div.question, div.question_icon {
     color: white ;
 }
-div.question:hover {
+div.question:hover, div.question_icon:hover {
     color: #aaa !important;
 }
 p.answer {
     color:#ccc !important; 
-    font-size:17px;
+    font-size:20px;
     text-align:left;
-    padding:10px 30px;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    padding:0px 0px;
+    min-height: 0px;
+    margin:0px;
+    font-weight: bolder;
+    transition-duration: 204ms;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }

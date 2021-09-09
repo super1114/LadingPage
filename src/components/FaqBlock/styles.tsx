@@ -16,7 +16,7 @@ export const Content = styled("p")`
 
 export const ContentWrapper = styled("div")`
   width:100%;
-  padding:0px 140px;
+  padding:0px 50px;
   @media only screen and (max-width: 768px) {
     max-width: 100%;
     padding:0px 10px;

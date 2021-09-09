@@ -6,7 +6,9 @@ export const TitleStyle = styled("p")<any>`
   max-width:300px;
   padding 8px;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 900;
+  font-family:myfont;
+  letter-spacing: 5px;
   margin-top:50px;
   color: white;
   background-color: #ee0d5d;

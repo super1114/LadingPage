@@ -18,7 +18,7 @@ export const Content = styled("p")`
   text-align:center;
   padding: 30px 40px;
   margin:0px;
-  background-color:#0a0a0a;
+  background-color:#140f0c;
   border: 2px white solid;
   color: white;
 `;

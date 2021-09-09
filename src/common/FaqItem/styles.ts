@@ -5,7 +5,7 @@ export const StyledContainer = styled("div")<any>`
   width: 100%;
   padding: 0 0px;
   border-top: ${(p) => (p.border ? "1px solid #CDD1D4" : "")};
-  background-color: #0a0a0a;
+  background-color: #140f0c;
   @media only screen and (max-width: 1024px) {
     max-width: 100%;
     padding: 0 0px;

@@ -10,8 +10,8 @@ export const PercentDiv = styled("div")`
   font-size:20px;
   font-weight:900;
   border: 2px solid white;
-  border-bottom: 2px solid #0a0a0a; 
-  background-color:#0a0a0a;
+  border-bottom: 2px solid #140f0c; 
+  background-color:#140f0c;
   color: #fa2170;
   @media only screen and (max-width: 575px) {
     left: 40% !important;
