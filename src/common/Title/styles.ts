@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const TitleStyle = styled("p")<any>`
   position: relative;
   width: 100%;
+  max-width:300px;
+  padding 8px;
   font-size: 35px;
   font-weight: bold;
-  padding: 0 60px;
-  color: #ff7fae !important;
+  margin-top:50px;
+  color: white;
+  background-color: #ee0d5d;
   text-align:center !important;
-  border-top: ${(p) => (p.border ? "1px solid #CDD1D4" : "")};
-
+  border-radius: 10px;
   @media only screen and (max-width: 1024px) {
     max-width: calc(100% - 68px);
     padding: 0 30px;

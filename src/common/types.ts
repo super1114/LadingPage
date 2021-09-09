@@ -53,4 +53,7 @@ export interface RarityItemProps {
   number?: string;
   character: string;
 }
-
+export interface FaqItemProps {
+  question: string;
+  answer: string;
+}

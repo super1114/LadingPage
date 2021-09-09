@@ -2,22 +2,25 @@ import styled from "styled-components";
 
 export const RightBlockContainer = styled("section")`
   position: relative;
+  padding: 8px 40px;
   @media only screen and (max-width: 1024px) {
-    padding: 8rem 0 6rem;
+    padding: 8px 20px;
+    margin-top:30px;
   }
-
   @media only screen and (max-width: 768px) {
-    padding: 4rem 0 3rem;
+    padding: 8px 20px;
+    margin-top:30px;
   }
 `;
 
 export const Content = styled("p")`
   margin: 1.5rem 0 2rem 0;
   text-align:center;
-  background-color: #ffc6bf;
-  color: #ff7fae;
   padding: 30px 40px;
   margin:0px;
+  background-color:#0a0a0a;
+  border: 2px white solid;
+  color: white;
 `;
 
 export const ContentWrapper = styled("div")`
