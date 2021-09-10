@@ -21,11 +21,10 @@ const ScrollToTop = () => {
     return () => {
       window.removeEventListener("scroll", checkScrollTop);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const scrollUp = () => {
-    const element = document.getElementById("intro") as HTMLDivElement;
+    const element = document.getElementById("home") as HTMLDivElement;
     element.scrollIntoView({
       behavior: "smooth",
       block: "end",

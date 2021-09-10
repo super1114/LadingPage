@@ -18,57 +18,56 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <MachineBlock
-        image="machine1.png"
-        id="machine"
+        id="home"
       />
       <SliderBlock 
         type="left"
-        id="slider"
+        id="about"
       />
-      <Title>Roadmap</Title>
+      <Title id="roadmap">Roadmap</Title>
       <Roadmap
         type="right"
         content={ RoadmapContent.roadmap1 }
         css={{left:"0%", top:"-2px", width:"7%"}}
         percent="0%"
-        id="about"
+        id="roadmap1"
       />
       <Roadmap
         type="left"
         content={ RoadmapContent.roadmap2 }
         css={{left:"22%", top:"-2px", width:"7%"}}
         percent="25%"
-        id="about"
+        id="roadmap2"
       />
       <Roadmap
         type="right"
         content={ RoadmapContent.roadmap3 }
         css={{left:"46%", top:"-2px", width:"7%"}}
         percent="50%"
-        id="about"
+        id="roadmap3"
       />
       <Roadmap
         type="left"
         content={ RoadmapContent.roadmap4 }
         css={{left:"72%", top:"-2px", width:"7%"}}
         percent="75%"
-        id="about"
+        id="roadmap4"
       />
       <Roadmap
         type="right"
         content={ RoadmapContent.roadmap5 }
         css={{left:"93%", top:"-2px", width:"7%"}}
         percent="100%"
-        id="about"
+        id="roadmap5"
       />
        <RarityBlock
         type="right"
         content={RaratyContent.content}
-        id="mission"
+        id="rarity"
       />
       <FaqBlock
         content={FaqContent.content}
-        id="mission"
+        id="faq"
       />
     </Container>
   );

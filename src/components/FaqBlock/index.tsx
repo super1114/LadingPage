@@ -1,7 +1,6 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
-import { Button } from "../../common/Button";
 import Title  from "../../common/Title";
 import FaqItem  from "../../common/FaqItem";
 import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
@@ -28,7 +27,7 @@ const FaqBlock = ({ content, id }: FaqBlockProps) => {
         <Row justify="center" align="middle" id={id}>
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
-              <Title >FAQ</Title>
+              <Title id="faq">FAQ</Title>
             </Col>
           </ContentWrapper>
         </Row>

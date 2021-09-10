@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MiddleBlockSection = styled("section")`
   position: relative;
-  padding: 7.5rem 0 3rem;
+  padding: 1.5rem 0 8rem;
   text-align: center;
 
   @media screen and (max-width: 1024px) {

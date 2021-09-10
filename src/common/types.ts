@@ -18,7 +18,7 @@ export interface SvgIconProps {
 }
 
 export interface MachineProps {
-  image:string;
+  src:string;
   width:string;
   height:string;
 }
@@ -48,6 +48,7 @@ export interface PercentProps {
 }
 export interface TitleProps {
   children: React.ReactNode;
+  id:string;
 }
 export interface RarityItemProps {
   number?: string;
