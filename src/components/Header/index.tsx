@@ -72,17 +72,16 @@ const Header = ({ t }: any) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall>
           <SocialLink
-                href="https://twitter.com"
+                href="https://twitter.com/metabaes"
                 src="twitter.svg"
               />
         </CustomNavLinkSmall>
         <CustomNavLinkSmall>
           <SocialLink
-                href="https://discord.com"
+                href="https://discord.gg/tRDh7zXUmP"
                 src="discord.svg"
               />
         </CustomNavLinkSmall>
-        
       </>
     );
   };

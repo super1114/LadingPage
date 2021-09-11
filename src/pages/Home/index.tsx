@@ -60,7 +60,8 @@ const Home = () => {
         percent="100%"
         id="roadmap5"
       />
-       <RarityBlock
+      <Title id="rarity">Rarity</Title>
+      <RarityBlock
         type="right"
         content={RaratyContent.content}
         id="rarity"

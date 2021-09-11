@@ -27,16 +27,27 @@ const RightBlock = ({
     <RightBlockContainer>
       <Fade direction="right">
         <RaritySection>
-          <Row justify="space-between" align="middle" id={id}>
-            <Col lg={11} md={11} sm={11} xs={24}>
+          <Row justify="space-around" align="middle" id={id}>
+            <Col lg={8} md={12} sm={12} xs={24}>
               <ContentWrapper>
-                <img src="img/rarity/1.jpg" width="50%" height="100%" />
-                <img src="img/rarity/2.jpg" width="50%" height="100%" />  
+                {content.map((item:RarityItemProps, index:any)=> {
+                  return (
+                    <RarityItem key={index} number={item.number} character={item.character} />
+                  )
+                })}
               </ContentWrapper>
             </Col>
-            <Col lg={11} md={11} sm={12} xs={24}>
+            <Col lg={8} md={12} sm={12} xs={24}>
               <ContentWrapper>
-                <h5 style={{marginTop:"30px", color: "#fe457e", fontWeight:900}}>Rarity</h5>
+                {content.map((item:RarityItemProps, index:any)=> {
+                  return (
+                    <RarityItem key={index} number={item.number} character={item.character} />
+                  )
+                })}
+              </ContentWrapper>
+            </Col>
+            <Col lg={8} md={12} sm={12} xs={24}>
+              <ContentWrapper>
                 {content.map((item:RarityItemProps, index:any)=> {
                   return (
                     <RarityItem key={index} number={item.number} character={item.character} />

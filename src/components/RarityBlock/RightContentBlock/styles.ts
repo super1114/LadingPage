@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const RightBlockContainer = styled("section")`
   position: relative;
-  padding: 3.5rem 0 3rem;
-
+  padding: 3.5rem 3rem 3rem;
+  width:100%;
   @media only screen and (max-width: 1024px) {
     padding: 8rem 0 6rem;
   }
-
   @media only screen and (max-width: 768px) {
     padding: 4rem 0 3rem;
   }
@@ -19,11 +18,7 @@ export const Content = styled("p")`
 
 export const ContentWrapper = styled("div")`
   position: relative;
-  max-width: 540px;
-
-  @media only screen and (max-width: 575px) {
-    padding-bottom: 4rem;
-  }
+  padding: 0px 20px;
 `;
 
 export const ButtonWrapper = styled("div")`
@@ -40,20 +35,5 @@ export const ButtonWrapper = styled("div")`
   }
 `;
 export const RaritySection = styled("div")`
-  padding: 0px 100px;
-  border-radius: 20px;
-  justify-content: space-between;
-  max-width: 100%;
-  background-color: #ffc6bf;
-  @media screen and (min-width: 1024px) {
-    max-width: 80%;
-    margin:0px;
-  }
-  @media only screen and (max-width: 575px) {
-    margin:0px;
-  }
-
-  button:last-child {
-    margin-left: 20px;
-  }
+  
 `;

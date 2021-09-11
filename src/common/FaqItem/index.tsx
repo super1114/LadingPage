@@ -5,16 +5,15 @@ const FaqItem = ({ question, answer }: FaqItemProps) => {
   const [isActive, setIsActive] = useState (false);
   const [height, setHeight] = useState("0px");
   const [font, setFontSize] = useState("0px");
+  const [transition, setTransition] = useState("max-height 0.15s ease-out");
   useEffect(()=> {
     if(isActive){
-      setHeight("40px");
-      setTimeout(()=> {
-        setFontSize("17px");
-      },100);
+      setHeight("500px");
+      setTransition("max-height 0.25s ease-in");
       
     }else {
       setHeight("0px");
-      setFontSize("0px");
+      setTransition("max-height 0.15s ease-out");
     }
   },[isActive])
   return (
@@ -25,7 +24,7 @@ const FaqItem = ({ question, answer }: FaqItemProps) => {
         </div>
         <div className="question_icon">{isActive ? '-' : '+'}</div>
       </div>
-      <p className="answer" style={{ fontSize:font, height:height }}>{answer}</p>
+      <p className="answer" style={{ maxHeight:height }}>{answer}</p>
     </div>
   )
 };
