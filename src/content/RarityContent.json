@@ -1,29 +1,101 @@
 {
-  "content": [
+  "column1": {
+    "content": [
+      {
+        "number": "8",
+        "character": "EFFECT"
+      },{
+        "number": "10",
+        "character": "PET"
+      },{
+        "number": "13",
+        "character": "Lower Neck"
+      },{
+        "number": "9",
+        "character": "Upper Neck"
+      },{
+        "number": "12",
+        "character": "Hair Accessory"
+      },{
+        "number": "10",
+        "character": "front hair"
+      },{
+        "number": "9",
+        "character": "Head Accesory"
+      },{
+        "number": "7",
+        "character": "Hats"
+      },{
+        "number": "8",
+        "character": "Hair Strand"
+      },{
+        "number": "10",
+        "character": "Sideburns"
+      }] 
+  },
+  "column2": {
+    "content":[
+      {
+        "number": "10",
+        "character": "Eye Wear"
+      },{
+        "number": "10",
+        "character": "Facial Accessory"
+      },{
+        "number": "16",
+        "character": "Jacket"
+      },{
+        "number": "10",
+        "character": "Shirt"
+      },{
+        "number": "11",
+        "character": "Undershirt"
+      },{
+        "number": "10",
+        "character": "Undergarments"
+      },{
+        "number": "8",
+        "character": "Facial Expression"
+      },{
+        "number": "10",
+        "character": "Eyebrows"
+      },{
+        "number": "10",
+        "character": "Eyes"
+      },{
+        "number": "8",
+        "character": "Birth marks"
+      }] 
+  },
+  "column3": {
+    "content": [
     {
-      "number": "10,000",
-      "character": "TOTAL DUCKS"
-    },{
       "number": "16",
-      "character": "BACKGROUND"
+      "character": "Lips"
     },{
-      "number": "18",
-      "character": "SKINS"
+      "number": "8",
+      "character": "Nose"
     },{
-      "number": "38",
-      "character": "CLOTHES"
-    },{
-      "number": "38",
-      "character": "HATS"
-    },{
-      "number": "27",
-      "character": "MOUTHS"
-    },{
-      "number": "27",
-      "character": "EYES"
+      "number": "8",
+      "character": "Skin Color"
     },{
       "number": "10",
-      "character": "SUPER DUCKS"
-    }
-  ]
+      "character": "Ears"
+    },{
+      "number": "12",
+      "character": "Back hair"
+    },{
+      "number": "9",
+      "character": "Hair Updo"
+    },{
+      "number": "6",
+      "character": "Overhead"
+    },{
+      "number": "8",
+      "character": "Wings"
+    },{
+      "number": "18",
+      "character": "Background"
+    }]
+  }
 }

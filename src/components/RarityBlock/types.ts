@@ -3,7 +3,9 @@ export interface RarityItemProps {
   character: string;
 }
 export interface RarityProps {
-  content: Array<RarityItemProps>;
+  column1: Array<RarityItemProps>;
+  column2: Array<RarityItemProps>;
+  column3: Array<RarityItemProps>;
   id: string;
   type?: string;
 }

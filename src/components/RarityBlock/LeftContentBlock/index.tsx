@@ -13,7 +13,9 @@ import {
 } from "./styles";
 
 const LeftContentBlock = ({
-  content,
+  column1,
+  column2,
+  column3,
   id,
 }: RarityProps) => {
   return (

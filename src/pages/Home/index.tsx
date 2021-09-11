@@ -63,7 +63,9 @@ const Home = () => {
       <Title id="rarity">Rarity</Title>
       <RarityBlock
         type="right"
-        content={RaratyContent.content}
+        column1={RaratyContent.column1.content}
+        column2={RaratyContent.column2.content}
+        column3={RaratyContent.column3.content}
         id="rarity"
       />
       <FaqBlock
