@@ -24,9 +24,8 @@ p.answer {
     font-size:20px;
     text-align:left;
     padding:0px 0px;
-    /* max-height: 0px; */
     overflow: hidden;
-    margin:0px;
+    margin: 0px;
     font-weight: bolder;
     transition: max-height 0.15s ease-in;
     transition: max-height 0.2s ease-out;

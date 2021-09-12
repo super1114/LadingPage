@@ -4,6 +4,7 @@ export const MiddleBlockSection = styled("section")`
   position: relative;
   padding: 1.5rem 0 8rem;
   text-align: center;
+  z-index: 1;
 
   @media screen and (max-width: 1024px) {
     padding: 5.5rem 0 3rem;

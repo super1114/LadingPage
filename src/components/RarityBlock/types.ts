@@ -1,6 +1,7 @@
 export interface RarityItemProps {
   number: string;
   character: string;
+  details: Array<string>;
 }
 export interface RarityProps {
   column1: Array<RarityItemProps>;

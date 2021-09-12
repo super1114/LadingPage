@@ -1,0 +1,47 @@
+div.rarity_item {
+    position: relative;
+    cursor: pointer;
+    border-bottom:1px solid #999;
+    display:flex; 
+    padding: 10px 0px;
+    align-items:center;
+    justify-content:space-between;
+}
+div.dropdown {
+    z-index: 100;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ee0d5d;
+}
+div.number {
+    z-index: 0;
+    font-size:30px; 
+    font-weight:900; 
+    color: #ee0d5d;
+}
+div.character {
+    z-index: 0;
+    color:white; 
+    font-size:20px; 
+    font-weight:900;
+}
+ul.dropdown_ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    z-index: 1000;
+}
+ul.dropdown_ul > li {
+    border-bottom: 1px white solid;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}

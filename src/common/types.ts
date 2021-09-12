@@ -53,6 +53,7 @@ export interface TitleProps {
 export interface RarityItemProps {
   number?: string;
   character: string;
+  details: Array<string>;
 }
 export interface FaqItemProps {
   question: string;

@@ -34,7 +34,7 @@ const RightBlock = ({
               <ContentWrapper>
                 {column1.map((item:RarityItemProps, index:any)=> {
                   return (
-                    <RarityItem key={index} number={item.number} character={item.character} />
+                    <RarityItem key={index} number={item.number} character={item.character} details={item.details} />
                   )
                 })}
               </ContentWrapper>
@@ -43,7 +43,7 @@ const RightBlock = ({
               <ContentWrapper>
                 {column2.map((item:RarityItemProps, index:any)=> {
                   return (
-                    <RarityItem key={index} number={item.number} character={item.character} />
+                    <RarityItem key={index} number={item.number} character={item.character} details={item.details} />
                   )
                 })}
               </ContentWrapper>
@@ -52,7 +52,7 @@ const RightBlock = ({
               <ContentWrapper>
                 {column3.map((item:RarityItemProps, index:any)=> {
                   return (
-                    <RarityItem key={index} number={item.number} character={item.character} />
+                    <RarityItem key={index} number={item.number} character={item.character} details={item.details} />
                   )
                 })}
               </ContentWrapper>

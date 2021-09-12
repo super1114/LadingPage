@@ -3,99 +3,414 @@
     "content": [
       {
         "number": "8",
-        "character": "EFFECT"
+        "character": "Effect",
+        "details": ["Feathers",
+          "Cofetti",
+          "Sparkles",
+          "Cherry Blossoms",
+          "Hearts",
+          "Rain",
+          "Orbs",
+          "Roses"]
       },{
         "number": "10",
-        "character": "PET"
+        "character": "Pet",
+        "details": ["Panda",
+          "Bee",
+          "Grey Hamster",
+          "Brown Hamster",
+          "Flower",
+          "Star",
+          "Blue Bunny Plush",
+          "Pink Bunny Plush",
+          "Bear",
+          "Cat"]
       },{
         "number": "13",
-        "character": "Lower Neck"
+        "character": "Lower Neck",
+        "details": ["Gold Ribbon",
+          "Blue Ribbon",
+          "Pink Ribbon",
+          "Green Thick Ribbon",
+          "Blue Thick Ribbon",
+          "Red Thick Ribbon",
+          "Perlescent Pearls",
+          "White Pearls",
+          "Black Bandana",
+          "Purple Bandana",
+          "Red Bandana",
+          "Gold Chain",
+          "Ruby Necklace"]
       },{
         "number": "9",
-        "character": "Upper Neck"
+        "character": "Upper Neck",
+        "details": ["Stitches",
+          "Bronze Cords",
+          "Black Cords",
+          "Bell Choker",
+          "Lock Choker",
+          "Ring Choker",
+          "Bandages",
+          "Mini Bell Choker",
+          "Bloody Stitches"]
       },{
         "number": "12",
-        "character": "Hair Accessory"
+        "character": "Hair Accessory",
+        "details": ["Egg",
+          "Leaves",
+          "Heart Candy",
+          "Black Leaves",
+          "Moonstar",
+          "Butterflies",
+          "Sakura",
+          "Diamonds",
+          "Wings",
+          "Pins",
+          "Candies",
+          "Heart"]
       },{
         "number": "10",
-        "character": "front hair"
+        "character": "Front Hair",
+        "details": ["Brunnete Fade",
+          "White",
+          "Ginger",
+          "Blonde Braided",
+          "Black Bangs",
+          "Neon Bangs",
+          "Pink Split",
+          "Green",
+          "Brown",
+          "Blue"]
       },{
         "number": "9",
-        "character": "Head Accesory"
+        "character": "Head Accesory",
+        "details":["Bunny Ears",
+          "Fairy",
+          "Antlers",
+          "Bear Ears",
+          "Dog Ears",
+          "Bull Horns",
+          "Fox Ears",
+          "Devil Horns"]
       },{
         "number": "7",
-        "character": "Hats"
+        "character": "Hat",
+        "details": ["Pumpkin",
+          "Fireman",
+          "Chef",
+          "Star Ribbon",
+          "Multicolor Ribbon",
+          "Pink Ribbon",
+          "Maid"]
       },{
         "number": "8",
-        "character": "Hair Strand"
+        "character": "Hair Strand",
+        "details": ["Pink",
+          "Leaf",
+          "Blue",
+          "Yellow",
+          "Black And White",
+          "Ginger",
+          "Magenta",
+          "Purple"]
       },{
         "number": "10",
-        "character": "Sideburns"
+        "character": "Sideburn",
+        "details": ["Purple", 
+          "Diry Blonde",
+          "Brunette",
+          "Green",
+          "Neon",
+          "Dark Purple",
+          "Black and Purple",
+          "Light Purple",
+          "Light Brown",
+          "Blue"]
       }] 
   },
   "column2": {
     "content":[
       {
         "number": "10",
-        "character": "Eye Wear"
+        "character": "Eye Wear",
+        "details": ["Bandage Patch",
+          "Bandages",
+          "Green Techglass",
+          "Blue Techglass",
+          "Red Rose",
+          "Blue Rose",
+          "Eyepatch",
+          "Rockstar Glasses",
+          "Reading Glasses",
+          "Circular Glasses"]
       },{
         "number": "10",
-        "character": "Facial Accessory"
+        "character": "Facial Accessory",
+        "details": ["Silver Tridot Earrings",
+          "Gold Tridot Earrings",
+          "Black Tridot Earrings",
+          "Silver Dangle Earrings",
+          "Gold Dangle Earrings",
+          "Silver Ring Earrings",
+          "Gold Ring Earrings",
+          "Bandaids",
+          "Nose Bandaid",
+          "Patch"
+
+        ]
       },{
         "number": "16",
-        "character": "Jacket"
+        "character": "Jacket",
+        "details": ["Whtie Sleeveless Dress",
+          "Black Sleeveless Dress",
+          "Blue Racing Jacket",
+          "Red Racing Jacket",
+          "Neon Kimono",
+          "Peach Kimono",
+          "Black Turtleneck",
+          "Beige Turtleneck",
+          "Pink Pajama",
+          "Purple Pajama",
+          "Brown Suspenders",
+          "Blue Suspenders",
+          "Sleeveless Hoodie",
+          "Raincoat",
+          "Track Jacket",
+          "Suit"
+        ]
       },{
         "number": "10",
-        "character": "Shirt"
+        "character": "Shirt",
+        "details": ["Magenta Jersey",
+          "Blue Jersey",
+          "Black Samurai Vest",
+          "Red Samurai Vest",
+          "Beige Sleeveless Paterned Cardigan",
+          "Pink Sleeveless Patterned Cardigan",
+          "Brown Sleeveless Cardigan",
+          "Green Sleeveless Cardigan",
+          "Purple Cardigan",
+          "Pink Cardigan"
+        ]
       },{
         "number": "11",
-        "character": "Undershirt"
+        "character": "Undershirt",
+        "details":["Crossneck",
+          "Blue Medieval Dress",
+          "Pink Smocked Dress",
+          "Green Smocked Dress",
+          "Blue Smocked Dress",
+          "Black Polo",
+          "Blue Polo",
+          "Black Casual Shirt",
+          "White Casul Shirt",
+          "Black Tank Top",
+          "Grey Tank Top"
+
+        ]
       },{
         "number": "10",
-        "character": "Undergarments"
+        "character": "Undergarment",
+        "details": ["Silk Bra",
+          "Red Loop Bra",
+          "Blue Dotted Cover",
+          "Bandages",
+          "Pink Bra",
+          "Red Crossed Bra",
+          "Black Leather Bra",
+          "White Neck Bra",
+          "Pink Lingerie Bra",
+          "Red Leather Bra"
+
+        ]
       },{
         "number": "8",
-        "character": "Facial Expression"
-      },{
-        "number": "10",
-        "character": "Eyebrows"
-      },{
-        "number": "10",
-        "character": "Eyes"
+        "character": "Facial Expression",
+        "details": ["Darkened",
+          "Comic Blush",
+          "Dot Blush",
+          "Blush",
+          "Cartoon Blush",
+          "Hyper Blush",
+          "Tears",
+          "Sweat"
+
+        ]
       },{
         "number": "8",
-        "character": "Birth marks"
+        "character": "Skin Mark",
+        "details":["Cheek Scar",
+          "Nose Scar",
+          "Cheek Rip",
+          "Scratches",
+          "Triangle Paint",
+          "Whisker Paint",
+          "Stitches",
+          "Freckles"]
+      },{
+        "number": "10",
+        "character": "Eyebrow",
+        "details":["Devil",
+          "Fancy",
+          "Excited",
+          "Questionable",
+          "Dotted",
+          "Realstic", 
+          "Angry",
+          "Sorrowful",
+          "Angry",
+          "Normal"]
+      },{
+        "number": "10",
+        "character": "Eyes",
+        "details": ["Button",
+          "Scary",
+          "Shocked",
+          "Tweaky",
+          "Smug",
+          "Alien",
+          "Crazy",
+          "Kawaii",
+          "Tired",
+          "Happy"]
       }] 
   },
   "column3": {
-    "content": [
-    {
+    "content": [{
+      "number": "8",
+      "character": "Birth Mark",
+      "details": ["Chin",
+        "Forehead",
+        "Under Eye",
+        "Cheek Hearts",
+        "Cheeks",
+        "Under Left Eye",
+        "Multi Face Right",
+        "Multi Face Left"]
+    }, {
       "number": "16",
-      "character": "Lips"
+      "character": "Lips",
+      "details": ["Smiley Tongue",
+        "Sad",
+        "Happy",
+        "Crossed Out",
+        "Welcoming",
+        "Shocked",
+        "Sexy",
+        "Tasty",
+        "Rough",
+        "Drowsy",
+        "Content",
+        "Dissapointed",
+        "Happy Fanged",
+        "Scared",
+        "Smile",
+        "Grinning"]
     },{
       "number": "8",
-      "character": "Nose"
+      "character": "Nose",
+      "details": ["Long",
+        "Double",
+        "Wide",
+        "Pig", 
+        "Red Pig",
+        "Dot",
+        "Triangle",
+        "Mini"
+      ]
     },{
       "number": "8",
-      "character": "Skin Color"
+      "character": "Skin Color",
+      "details": ["Albino",
+        "Zombie",
+        "Alien",
+        "Robot",
+        "Black",
+        "Brown",
+        "Yellow",
+        "White"
+      ]
     },{
       "number": "10",
-      "character": "Ears"
+      "character": "Ears",
+      "details": ["Bat Wings",
+        "Angel Wings",
+        "Chewed Zombie",
+        "Black",
+        "Zombie",
+        "Albino",
+        "White",
+        "Long Zombie",
+        "Long Albino",
+        "Long White"]
     },{
       "number": "12",
-      "character": "Back hair"
+      "character": "Back Hair",
+      "details": ["Wavy Ginger",
+        "Short Green",
+        "Messy Blonde",
+        "Crazy Green",
+        "Spikey Deep Purple",
+        "Long Pink",
+        "Braided Dirty Ginger",
+        "Wavy Dark Blonde",
+        "Long Black",
+        "Long Blonde Fade",
+        "Long Blue",
+        "Spikey Purple"]
     },{
       "number": "9",
-      "character": "Hair Updo"
+      "character": "Hair Updo",
+      "details": ["Red Messy Bun",
+        "Blonde Twin Buns",
+        "Ginger Ponytail",
+        "Green Curly Ponytail",
+        "Blue Braids",
+        "Purple Mini Ponytails",
+        "Pink Twintail",
+        "Dark Brown Twintail",
+        "Pink Spiky Bun"]
     },{
       "number": "6",
-      "character": "Overhead"
+      "character": "Overhead",
+      "details": ["Meteors",
+        "Crystals",
+        "Roses",
+        "Crown",
+        "Heart Rainbow",
+        "Halo"]
     },{
       "number": "8",
-      "character": "Wings"
+      "character": "Wings",
+      "details": ["Fairy",
+        "Insect",
+        "Mech",
+        "Bat",
+        "Raven",
+        "Pixie",
+        "Angel",
+        "Devil"]
     },{
       "number": "18",
-      "character": "Background"
+      "character": "Background",
+      "details": ["Cherry Blossom",
+        "Space",
+        "Sky",
+        "Purple Dot",
+        "Blue Dot",
+        "Green Dot",
+        "Yellow Dot",
+        "Pink Dot",
+        "Purple Fade",
+        "Blue Fade",
+        "Green Fade",
+        "Orange Fade",
+        "Pink Fade",
+        "Purple Sphere",
+        "Blue Sphere",
+        "Green Sphere",
+        "Yellow Sphere",
+        "Pink Sphere"]
     }]
   }
 }
