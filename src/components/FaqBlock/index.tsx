@@ -2,8 +2,8 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import Title  from "../../common/Title";
-import FaqItem  from "../../common/FaqItem";
-import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
+import { FaqItem, LastFaqItem }  from "../../common/FaqItem";
+import { MiddleBlockSection, ContentWrapper } from "./styles";
 
 interface FaqItemProps {
   question: string;
@@ -37,6 +37,7 @@ const FaqBlock = ({ content, id }: FaqBlockProps) => {
               {content.map((item:FaqItemProps, index)=>{
                 return (<FaqItem question={item.question} answer={item.answer} key={index} />)
               })}
+              <LastFaqItem />
             </Col>
           </ContentWrapper>
         </Row>

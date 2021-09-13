@@ -8,6 +8,7 @@ const FaqBlock = lazy(() => import("../../components/FaqBlock"));
 const RarityBlock = lazy(() => import("../../components/RarityBlock"));
 const MachineBlock = lazy(() => import("../../components/MachineBlock"));
 const SliderBlock = lazy(() => import("../../components/SliderBlock"));
+const TeamBlock = lazy(() => import("../../components/TeamBlock"));
 const Roadmap = lazy(() => import("../../components/Roadmap"));
 const Container = lazy(() => import("../../common/Container"));
 const Title = lazy(() => import("../../common/Title"));
@@ -72,6 +73,9 @@ const Home = () => {
         content={FaqContent.content}
         id="faq"
       />
+      <Title id="team">The Bae Team</Title>
+      <TeamBlock/>
+
     </Container>
   );
 };

@@ -1,3 +1,5 @@
+import React from "react";
+
 export interface ContainerProps {
   border?: boolean;
   children: React.ReactNode;
@@ -18,9 +20,8 @@ export interface SvgIconProps {
 }
 
 export interface MachineProps {
-  src:string;
-  width:string;
-  height:string;
+  stage:number,
+  onVideoLoaded: () => void;
 }
 
 export interface InputProps {

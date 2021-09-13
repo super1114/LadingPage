@@ -27,6 +27,6 @@ p.answer {
     overflow: hidden;
     margin: 0px;
     font-weight: bolder;
-    transition: max-height 0.15s ease-in;
-    transition: max-height 0.2s ease-out;
+    
+    transition: max-height 0.23s ease-out;
 }

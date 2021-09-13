@@ -17,22 +17,19 @@ const MachineBlock = ({ id }: MachineBlockProps) => {
       behavior: "smooth",
     });
   };
-  const srcList = ["machine1.png","machine2.png","machine3.png"];
-  const [src, setSrc] = useState(1);
-  let i=0;
-  setTimeout(()=>{
-    if(src>2) setSrc(1);
-    else setSrc(src+1);
-  },5000);
-  
-  console.log(src);
+  const [stage, setStage] = useState(2);
 
+  const onVideoLoaded = () => {
+    setStage(3);
+  }
   return (
     <MiddleBlockSection>
       <Row justify="center" align="middle" id={id}>
         <ContentWrapper>
           <Col lg={24} md={24} sm={24} xs={24}>
-            <Machine src={"machine"+src+".png"} width="100%" height="100%" />
+            <ContentWrapper>
+              <Machine stage={stage} onVideoLoaded={() => onVideoLoaded()} />
+            </ContentWrapper>
           </Col>
         </ContentWrapper>
       </Row>
