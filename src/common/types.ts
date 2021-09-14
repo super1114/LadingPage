@@ -21,7 +21,9 @@ export interface SvgIconProps {
 
 export interface MachineProps {
   stage:number,
-  onVideoLoaded: () => void;
+  onEnter: () => void;
+  onGallery: () => void;
+  onWalletConnect: () => void;
 }
 
 export interface InputProps {

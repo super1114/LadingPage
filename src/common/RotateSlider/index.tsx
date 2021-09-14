@@ -2,8 +2,9 @@ import {useEffect, useState} from 'react'
 import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
 import { images } from "../../content/SliderContent.json"
-
-const RotateSlider = () => {
+import "./style.css"
+const RotateSlider = ({height}:any) => {
+  console.log(height);
   const [goToSlide, setSlide] = useState (0);
   setTimeout(() => {
     setSlide(goToSlide+1);
@@ -11,10 +12,9 @@ const RotateSlider = () => {
   const slides = images.map((item, key) => {
     return {key:key, content:<img src={item} />}
   })
-  console.log(slides);
   
   return (
-    <div style={{ width: "100%", height: "300px", margin: "0 auto" }}>
+    <div className="rotateslider" style={{ height: height }}>
       <Carousel
         slides={slides}
         goToSlide={goToSlide}

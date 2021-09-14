@@ -6,6 +6,7 @@ import "../global.css"
 
 const FaqBlock = lazy(() => import("../../components/FaqBlock"));
 const RarityBlock = lazy(() => import("../../components/RarityBlock"));
+const  Wallet  = lazy(() => import("../../components/Wallet"));
 const MachineBlock = lazy(() => import("../../components/MachineBlock"));
 const SliderBlock = lazy(() => import("../../components/SliderBlock"));
 const TeamBlock = lazy(() => import("../../components/TeamBlock"));

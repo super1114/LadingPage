@@ -29,7 +29,7 @@ const LeftContentBlock = ({
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <RotateSlider />
+              <RotateSlider height="300px" />
             </ContentWrapper>
           </Col>
         </Row>

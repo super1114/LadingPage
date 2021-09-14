@@ -1,7 +1,60 @@
-div.git_container {
+div.machine_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.btn_section {
+    position:absolute;
+}
+div.gallery {
     position: absolute;
-    width: 398px;
-    height: 300px;
-    top: 191px;
-    left: 237px;
+    top:25%;
+}
+i.close_gallery {
+    position: absolute;
+    right:-115px;
+    top:-10px;
+    color: #4e44ce;
+    font-size: 16px;
+}
+img.scr_btn {
+    cursor:pointer;
+}
+button.wallet-adapter-button {
+    padding: 10px 20px;
+    height: auto !important;
+    font-size: 20px;
+    line-height: 20px;
+}
+img.machine_image {
+    width: 50%;
+}
+div.bottom_btn {
+    margin-bottom: 50%;
+}
+div.top_btn {
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 768px) {
+    div.welcome {
+        height: 526px;
+        padding: 10px;
+    }
+    img.scr_btn {
+        width: 50% !important;
+        margin-bottom: 0px !important;
+    }
+    button.wallet-adapter-button {
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    img.machine_image {
+        width: 100%;
+    }
+    i.close_gallery {
+        right:-75px;
+        top:-10px;
+    }
 }

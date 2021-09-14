@@ -16,8 +16,10 @@ export const Content = styled("p")`
 `;
 
 export const ContentWrapper = styled("div")`
-  max-width: 870px;
   position:relative;
+  display:flex;
+  align-items:center;
+  justify-content: center;
   @media only screen and (max-width: 768px) {
     max-width: 100%;
   }
