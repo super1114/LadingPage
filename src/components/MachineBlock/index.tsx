@@ -30,7 +30,7 @@ const MachineBlock = ({ id }: MachineBlockProps) => {
   const { connection } = useConnection();
   const { wallet, connect } = useWallet();
   const OnEnter = () => {
-    setStage(2);
+    setStage(3);
   }
   const OnWalletConnect = () => {
     setStage(3);
