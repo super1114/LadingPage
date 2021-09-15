@@ -29,9 +29,6 @@ import { useSnackbar } from 'notistack';
     const network = WalletAdapterNetwork.Devnet;
     const endpoint = useMemo(() => clusterApiUrl(network), [network]);
     const [autoConnect, setAutoConnect] = useLocalStorage('autoConnect', true);
-    console.log("---------------------------------------------");
-    console.log(getPhantomWallet());
-    console.log("+++++++++++++++++++++++++++++++++++++++++++++");
     const wallets = useMemo(
         () => [
             getPhantomWallet(),

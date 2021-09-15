@@ -76,7 +76,6 @@ const Home = () => {
       />
       <Title id="team">The Bae Team</Title>
       <TeamBlock/>
-
     </Container>
   );
 };
