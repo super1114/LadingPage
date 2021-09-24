@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
     "@solana/spl-token": "^0.1.8",
     "@solana/wallet-adapter-base": "^0.5.2",
     "@solana/wallet-adapter-react": "^0.10.2",
@@ -20,8 +19,6 @@
     "i18next": "^19.8.4",
     "i18next-browser-languagedetector": "^6.0.1",
     "i18next-xhr-backend": "^3.2.2",
-    "notistack": "^1.0.10",
-    "oyster": "^0.2.0",
     "react": "^17.0.2",
     "react-awesome-reveal": "^3.7.1",
     "react-awesome-slider": "^4.1.0",
@@ -32,8 +29,7 @@
     "react-spring": "^9.2.4",
     "react-spring-3d-carousel": "^1.2.1",
     "styled-components": "^5.2.1",
-    "typescript": "^4.2.4",
-    "use-wallet": "^0.10.0"
+    "typescript": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
